@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+* {
+  background: transparent;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Verdana, "ＭＳ Ｐゴシック", "MS PGothic", IPAPGothic, sans-serif !important;
+}
+
+body {
+  font-size: 80%;
+  text-align: center;
+  background: #ffffff;
+}
+
+#wrap {
+  width: 650px;
+  background: #eeeeee;
+  margin: 30px auto;
+  border: 1px #f5f5f5 solid;
+}
+
+h1 a {
+  font-family: Optima, "Trebuchet MS" !important;
+  font-size: 25px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#menu {
+  float: left;
+  width: 30%;
+  margin: 15px 0px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-top: 10px;
+}
+
+nav ul li a {
+  font-family: "Arial Narrow", "Lucida Console" !important;
+}
+
+#content {
+  float: left;
+  width: 57%;
+  margin: 20px 0px 20px 50px;
+  border: 1px white solid;
+  border-radius: 15px;
+  background: white;
+}
+
+#content section {
+  border-bottom: 2px #f5f5f5 dotted;
+  margin-top: 10px;
+  text-align: left;
+}
+
+#content section h2 {
+  margin-left: 3em;
+  font-family: "Tahoma" !important;
+}
+
+#content section ul {
+  list-style-type: none;
+  margin-top: 
+}
+
+#content section ul li {
+  margin-left: 4em;
+}
+
+footer {
+  clear: both;
+}
