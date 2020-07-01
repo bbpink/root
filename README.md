@@ -1,5 +1,8 @@
 # root
-  sevensenses.jp root web site
+  sevensenses.jp root web site ( https://sevensenses.jp )
 
-* sudo docker build -t sevensenses/root .
-* sudo docker run -d --name root -it sevensenses/root
+```
+sudo docker build -t sevensenses/root ./docker/
+sudo docker tag IMAGE_ID docker.pkg.github.com/bbpink/root/root:vX.Y.Z
+sudo docker push docker.pkg.github.com/bbpink/root/root:vX.Y.Z
+```
